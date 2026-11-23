@@ -7,3 +7,8 @@ variable "bucket_description" {
   description = "Description of the S3 bucket"
   type        = string
 }
+
+variable "aws_region" {
+  description = "AWS region where resources will be deployed"
+  type        = string
+}
